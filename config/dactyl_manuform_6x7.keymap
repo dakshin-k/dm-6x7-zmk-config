@@ -11,8 +11,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#define DEFAULT 0
-
 / {
 	keymap {
 		compatible = "zmk,keymap";
