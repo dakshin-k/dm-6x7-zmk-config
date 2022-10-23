@@ -1,0 +1,11 @@
+file_format: "1"
+id: dactylmanuform6x7
+name: Dactyl Manuform 6x7
+type: shield
+url: https://github.com/carbonfet/dactyl-manuform
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - dactyl_manuform_6x7_left
+  - dactyl_manuform_6x7_right
