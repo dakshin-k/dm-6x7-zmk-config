@@ -14,13 +14,13 @@
 
 		default_layer {
 			bindings = <
-			&kp ESC    &kp F1       &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7     &kp F8      &kp F9    &kp F10    &kp F11    &kp F12     &bt BT_CLR 
-			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &kp MINUS  &kp EQUAL   &kp A   
-			&kp TAB    &kp Q        &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U      &kp I       &kp O     &kp P      &kp LBKT   &kp RBKT    &kp BSLH
-			&kp LCTRL  &kp A        &kp S     &kp D     &kp F     &kp G     &kp H     &kp J      &kp K       &kp L     &kp SEMI   &kp APOS   &kp B       &kp C
-            &kp LSHFT  &kp Z        &kp X     &kp C     &kp V     &kp B     &kp N     &kp M      &kp COMMA   &kp DOT   &kp SLASH  &kp D      &kp E       &kp F
-			&kp TAB    &kp Q        &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U      &kp I       &kp O     &kp P      &kp LBKT   &kp RBKT    &kp BSLH
-			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp N4    &kp N5    &kp N6    &kp N7     &kp N8      &kp N9    &kp N0     &kp MINUS  &kp EQUAL   &kp A   
+			&kp ESC    &kp F1       &kp F2    &kp F3    &kp F4      &kp F5    &kp F6      &kp F7     &kp F8      &kp F9      &kp F10    &kp F11    &kp F12     &bt BT_CLR 
+			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp N4      &kp N5    &kp HOME    &kp N6     &kp N7      &kp N8      &kp N9     &kp N0     &kp MINUS   &kp EQUAL
+			&kp TAB    &kp Q        &kp W     &kp E     &kp R       &kp T     &kp END     &kp A      &kp Y       &kp U       &kp I      &kp O      &kp P       &kp BSLH 
+			&kp CAPS   &kp A        &kp S     &kp D     &kp F       &kp G     &kp LBKT    &kp RBKT   &kp H       &kp J       &kp K      &kp L      &kp SEMI    &kp APOS 
+      &kp LSHFT  &kp Z        &kp X     &kp C     &kp V       &kp B     &none       &none      &kp N       &kp M       &kp COMMA  &kp DOT    &kp SLASH   &kp RSHIFT 
+			&kp TAB    &kp Q        &kp LCMD  &kp LALT  &kp SPACE   &kp UP    &kp BSPC    &kp BSPC   &kp I       &kp SPACE   &kp RCMD   &kp RALT   &kp RBKT    &kp BSLH
+			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp LEFT    &kp DOWN  &kp RIGHT   &kp N7     &kp N8      &kp N9      &kp N0     &kp MINUS  &kp EQUAL   &kp A   
 			>;
 		};
 	};
