@@ -20,8 +20,25 @@
 			&kp CAPS   &kp A        &kp S     &kp D     &kp F       &kp G     &kp LBKT    &kp RBKT   &kp H       &kp J       &kp K      &kp L      &kp SEMI    &kp APOS 
       &kp LSHFT  &kp Z        &kp X     &kp C     &kp V       &kp B     &none       &none      &kp N       &kp M       &kp COMMA  &kp DOT    &kp SLASH   &kp RSHIFT 
 			&kp TAB    &kp Q        &kp LALT  &kp LCMD  &kp SPACE   &kp UP    &kp BSPC    &kp BSPC   &kp ENTER   &kp SPACE   &kp RCMD   &kp RALT   &kp RBKT    &kp BSLH
-			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp LEFT    &kp DOWN  &kp RIGHT   &kp N7     &kp N8      &kp RCTRL   &kp N0     &kp MINUS  &kp EQUAL   &kp A   
+			&kp GRAVE  &kp N1       &kp N2    &kp N3    &kp LEFT    &kp DOWN  &kp RIGHT   &zoom_mute     &kp N8      &kp RCTRL   &kp N0     &kp MINUS  &kp EQUAL   &kp A   
 			>;
 		};
 	};
+
+	macros {
+        zoom_mute: zoom_mute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+			
+			wait-ms = <40>;
+			tap-ms = <40>;
+            bindings
+                = <&macro_press &kp LSCMD>
+				, <&macro_press &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp LSHFT>
+				, <&macro_release &kp LCMD>
+                ;
+        };
+    };
 };
